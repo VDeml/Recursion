@@ -4,5 +4,9 @@ function mergeSort(array) {
         const rightHalf = array.slice((array.length / 2), array.length)
         return { leftHalf, rightHalf }
     }
-    const test = splitInHalf([0,1,2,3,4])
+    return "yes"
 }
+
+
+
+export{ mergeSort }
